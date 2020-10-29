@@ -8,7 +8,6 @@
 feature 'Enter names' do
   scenario 'submitting names' do
     visit('/')
-    save_and_open
     fill_in :player_1_name, with: 'player_1_name'
     fill_in :player_2_name, with: 'player_2_name'
     click_button 'Submit'
